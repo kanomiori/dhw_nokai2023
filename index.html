@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
 <script type="text/javascript">window["_gaUserPrefs"] = { ioo: function () { return true; } }</script>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
     <title>DHW納会2023</title>
-
-    <style type="text/css">
-        span.password {
-            font-size: 150%;
-            font-family: monospace;
-            font-weight: bold;
-            margin: 0px 0.3em;
-        }
-
-        input[type=button] {
-            font-size: 125%;
-            margin: 2em;
-        }
-
-        div.guide {
-            background-color: #e0e0e0;
-            padding: 3px 1em;
-        }
-    </style>
 
 </head>
 
 <body>
+<div class="grdBox">
+    <div class="card">
+    <div class="card__command">
+        <div class="card__text">
+    <h1 class="card__text">パスワードを入力せよ</h1>
 
-    <h1>パスワードを入力せよ</h1>
-
-    <p>
+    <p class="card__text">
         パスワードはスライドのどこかに。。？どうやってみせようかな～～～<br>今はサンプルで「dragon」と入れたら飛びます
     </p>
 
@@ -53,10 +40,12 @@
     </script>
 
     <p>
-        <input type="button" value="パスワード解除ッ" onclick="gate();">
+        <input type="button" class="btn" value="パスワード解除ッ" onclick="gate();">
     </p>
-
-
+    </div>
+    </div>
+    </div>
+</div>
 </body>
 
 </html>
