@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     height: 98vh;
-    background: linear-gradient(90deg, #7097e7 0%, #70cce7 50%, #eb98ee 80%, #7097e7 100%);
+    background: linear-gradient(90deg, #7097e7 0%, #2b213b 50%, #ab4f60 80%, #7097e7 100%);
     background-size: 200% 200%;
     animation: bggrdAnime 25s ease infinite;
 }
@@ -39,10 +39,7 @@ input[type=button] {
     margin: 2em;
 }
 
-div.guide {
-    background-color: #e0e0e0;
-    padding: 3px 1em;
-}
+
 
 .card {
     height: 300px; 
