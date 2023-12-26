@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .body {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -39,13 +41,18 @@ input[type=button] {
     margin: 2em;
 }
 
-
+.content {
+    width: 750px
+}
 
 .card {
-    height: 300px; 
-    width: 700px;
+    height: 300px;
+    width: 750px;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
+
 
 .card__command {
     font-family: 'Noto Sans JP', sans-serif;
@@ -61,7 +68,7 @@ input[type=button] {
     position: absolute;
     width: 100%;
     padding: 20px;
-    }
+}
 
 
 p.card__text {
