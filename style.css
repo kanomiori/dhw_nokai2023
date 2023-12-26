@@ -46,7 +46,7 @@ input[type=button] {
 }
 
 .card {
-    height: 400px;
+    height: 350px;
     width: 750px;
     position: relative;
     display: flex;
@@ -72,7 +72,7 @@ input[type=button] {
 
 
 p.card__text {
-    margin: 16px;
+    margin: 0 auto;
     font-size: 20px;
     color: #ffffff;
     line-height: 1.5;
