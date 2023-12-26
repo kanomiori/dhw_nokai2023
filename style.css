@@ -46,7 +46,7 @@ input[type=button] {
 }
 
 .card {
-    height: 350px;
+    height: 400px;
     width: 750px;
     position: relative;
     display: flex;
